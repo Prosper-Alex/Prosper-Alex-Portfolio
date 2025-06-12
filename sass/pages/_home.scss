@@ -68,6 +68,11 @@
     }
 
     .project_card {
+      background-color: $davys-grey;
+      border: 1.5px solid #777;
+      border-radius: $border-radius-sm;
+
+      overflow: hidden;
       .project-img {
         height: 40vh;
         width: 100%;
@@ -77,6 +82,10 @@
           width: 100%;
           object-fit: cover;
         }
+      }
+
+      .project-textbox {
+        padding: 2rem;
       }
     }
   }
