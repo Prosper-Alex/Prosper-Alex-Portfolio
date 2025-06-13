@@ -43,6 +43,12 @@
   margin: 10rem 0;
 
   &_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
     @include bg-desktop {
       animation: moveinBottom 1s ease-out;
     }
@@ -56,7 +62,7 @@
   &_content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5rem;
+    gap: 3rem;
     width: 100%;
 
     .heading-secondary.md {
@@ -68,11 +74,18 @@
     }
 
     .project_card {
-      background-color: $davys-grey;
+      scale: 1;
+      transition: all 0.3s ease-in-out;
+      background-color: $subtle-grey;
       border: 1.5px solid #777;
       border-radius: $border-radius-sm;
-
       overflow: hidden;
+
+      &:hover {
+        scale: 1.02;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
       .project-img {
         height: 40vh;
         width: 100%;
@@ -88,5 +101,14 @@
         padding: 2rem;
       }
     }
+  }
+
+  &_wrapper--button {
+    padding: 2rem;
+    border: 1.5px solid #777;
+    background-color: $subtle-grey;
+    border-radius: $border-radius-rm;
+
+    margin: 4rem 0;
   }
 }
