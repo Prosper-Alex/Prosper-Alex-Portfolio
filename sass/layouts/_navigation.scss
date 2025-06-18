@@ -12,6 +12,7 @@
   letter-spacing: 0%;
   cursor: pointer;
   border-bottom: 1.5px solid $davys-grey;
+  backface-visibility: hidden;
 
   @include bg-desktop {
     animation: moveinBottom 1s ease-out;
@@ -232,22 +233,25 @@
     gap: 2.4rem;
     align-items: center;
     font-size: 1.4rem;
+    box-sizing: border-box;
+
+    .border {
+      border: 1px solid $default-color;
+      border-radius: $border-radius-rm;
+      transition: all 0.3s;
+      box-sizing: inherit;
+
+      &:hover {
+        border: none;
+        border-radius: $border-radius-rm;
+        background-color: $default-color;
+        color: $default-background-color;
+      }
+    }
   }
+
   .cta {
     padding: 1rem 1.4rem;
-  }
-
-  .border {
-    border: 1px solid $default-color;
-    border-radius: $border-radius-rm;
-    transition: transform 0.2s ease;
-  }
-
-  .border:hover {
-    border: none;
-    border-radius: $border-radius-rm;
-    background-color: $default-color;
-    color: $default-background-color;
   }
 
   .black-bg {
@@ -255,16 +259,16 @@
     color: $default-background-color;
     border-radius: $border-radius-rm;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
 
-  .black-bg:hover {
-    transform: translateY(-1px);
-    box-shadow: $btn-shadow;
-  }
+    &:hover {
+      transform: translateY(-1px);
+      box-shadow: $btn-shadow;
+    }
 
-  .black-bg:active {
-    transform: translateY(1px);
-    box-shadow: $btn-shadow--clicked;
+    &:active {
+      transform: translateY(1px);
+      box-shadow: $btn-shadow--clicked;
+    }
   }
 
   .dk {
