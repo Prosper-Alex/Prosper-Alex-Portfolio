@@ -11,6 +11,14 @@
     flex-direction: column;
     gap: 1rem;
 
+    .paragraph.text-pb {
+      display: flex;
+
+      @include phone {
+        display: none;
+      }
+    }
+
     .paragraph.sm {
       width: 60%;
 
