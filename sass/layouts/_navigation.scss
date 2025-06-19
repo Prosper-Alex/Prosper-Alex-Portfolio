@@ -204,9 +204,10 @@
       z-index: 150;
       margin-right: 2rem;
       padding: 1rem 2rem;
-      color: $default-background-color;
-      background-color: $accent-color;
-      border-radius: 15px;
+      color: $default-color;
+      background-color: $subtle-grey;
+      border: 1.5px solid #777;
+      border-radius: $border-radius-sm;
     }
 
     span.open {
@@ -236,13 +237,16 @@
     box-sizing: border-box;
 
     .border {
-      border: 1px solid $default-color;
-      border-radius: $border-radius-rm;
-      transition: all 0.3s;
-      box-sizing: inherit;
+      scale: 1;
+      transition: all 0.3s ease-in-out;
+      background-color: $subtle-grey;
+      border: 1.5px solid #777;
+      border-radius: $border-radius-sm;
+      overflow: hidden;
 
       &:hover {
-        border: none;
+        scale: 1.02;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         border-radius: $border-radius-rm;
         background-color: $default-color;
         color: $default-background-color;

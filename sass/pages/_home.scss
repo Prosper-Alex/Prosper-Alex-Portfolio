@@ -244,47 +244,52 @@
   }
 
   &_content {
-    .textbox {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 3rem;
-      width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    scale: 1;
+    transition: all 0.3s ease-in-out;
+    background-color: $subtle-grey;
+    border: 1.5px solid #777;
+    border-radius: $border-radius-sm;
+    overflow: hidden;
+    padding: 2rem;
+
+    &:hover {
+      scale: 1.02;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .paragraph.mm {
+      text-align: center;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      width: 60%;
+      margin: 0 auto;
 
       @include phone {
-        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
       }
     }
 
-    .heading-secondary.md {
-      margin-bottom: 0.7rem;
-    }
-
-    .heading-tertiary {
-      margin-bottom: 2rem;
-    }
-
-    .text {
+    &--button {
+      padding: 1.2rem;
       scale: 1;
       transition: all 0.3s ease-in-out;
       background-color: $subtle-grey;
       border: 1.5px solid #777;
       border-radius: $border-radius-sm;
       overflow: hidden;
-      padding: 2rem;
 
       &:hover {
         scale: 1.02;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: $border-radius-rm;
+        background-color: $default-background-color;
+        color: $default-color;
       }
     }
-  }
-
-  &_wrapper--button {
-    padding: 2rem;
-    border: 1.5px solid #777;
-    background-color: $subtle-grey;
-    border-radius: $border-radius-rm;
-
-    margin: 4rem 0;
   }
 }
