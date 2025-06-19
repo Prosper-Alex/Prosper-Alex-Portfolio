@@ -11,14 +11,6 @@
     flex-direction: column;
     gap: 1rem;
 
-    .paragraph.text-pb {
-      display: flex;
-
-      @include phone {
-        display: none;
-      }
-    }
-
     .paragraph.sm {
       width: 60%;
 
@@ -29,6 +21,16 @@
       @include medium-phone {
         width: 100%;
         font-size: 1.4rem;
+      }
+
+      .paragraph.text-pb {
+        @include bg-desktop {
+          display: flex;
+        }
+
+        @include phone {
+          display: none;
+        }
       }
     }
 
@@ -74,7 +76,7 @@
 }
 
 .project {
-  margin: 10rem 0 7rem 0;
+  margin: 10rem 0 15rem 0;
 
   &_wrapper {
     display: flex;
@@ -152,5 +154,56 @@
     border-radius: $border-radius-rm;
 
     margin: 4rem 0;
+  }
+}
+
+.offer {
+  margin: 7rem 0 10rem 0;
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    @include bg-desktop {
+      animation: moveinBottom 1s ease-out;
+    }
+  }
+
+  &_content {
+    .textbox {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 3rem;
+      width: 100%;
+
+      @include phone {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .heading-secondary.md {
+      margin-bottom: 0.7rem;
+    }
+
+    .heading-tertiary {
+      margin-bottom: 2rem;
+    }
+
+    .text {
+      scale: 1;
+      transition: all 0.3s ease-in-out;
+      background-color: $subtle-grey;
+      border: 1.5px solid #777;
+      border-radius: $border-radius-sm;
+      overflow: hidden;
+      padding: 2rem;
+
+      &:hover {
+        scale: 1.02;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+    }
   }
 }
