@@ -125,6 +125,10 @@
     align-items: center;
     justify-content: space-between;
 
+    @include phone {
+      flex-direction: column;
+      align-items: center;
+    }
     .footer-head {
       font-size: 2.4rem;
       font-weight: 700;
@@ -134,7 +138,10 @@
 
       @include tab-port {
         font-size: 3.2rem;
-        margin-left: 2rem;
+      }
+
+      @include phone {
+        margin-bottom: 2rem;
       }
     }
   }
