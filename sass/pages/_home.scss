@@ -160,7 +160,7 @@
 
 // Offer Section
 .offer {
-  margin: 7rem 0 10rem 0;
+  margin: 7rem 0 15rem 0;
   &_wrapper {
     display: flex;
     flex-direction: column;
@@ -215,12 +215,14 @@
   }
 
   &_wrapper--button {
-    padding: 2rem;
-    border: 1.5px solid #777;
-    background-color: $subtle-grey;
-    border-radius: $border-radius-rm;
-
-    margin: 4rem 0;
+    margin: 6rem 0;
+    .cta {
+      padding: 2rem;
+      border: 1.5px solid #777;
+      background-color: $subtle-grey;
+      border-radius: $border-radius-rm;
+      margin: 5rem 0;
+    }
   }
 }
 
