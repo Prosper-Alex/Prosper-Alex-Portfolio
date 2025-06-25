@@ -229,8 +229,6 @@
 // Inbox Section
 
 .inbox {
-@include phone{
-display:none;}
   margin: 7rem 0 10rem 0;
   &_wrapper {
     display: flex;

@@ -18,6 +18,11 @@ body {
   letter-spacing: -0.03em;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 // h1,
 // h2,
 // h3 {
