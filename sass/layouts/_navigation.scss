@@ -251,6 +251,16 @@
         color: $default-background-color;
       }
     }
+
+    .git-icon {
+      width: 5rem;
+      height: 5rem;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 
   .cta {
