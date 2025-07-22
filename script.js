@@ -1,3 +1,3 @@
 document.querySelectorAll("img").forEach((img) => {
-  img.addEventListener("dragstart", (event) => event.preventDefault());
+  img.addEventListener("dragstart", (img) => event.preventDefault());
 });
