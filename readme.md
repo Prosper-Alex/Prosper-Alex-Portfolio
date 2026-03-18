@@ -1,4 +1,4 @@
-# 🌐 Prosper Alex – Frontend Developer Portfolio
+# 🌐 Prosper Alex => Frontend Developer Portfolio
 
 A clean and responsive developer portfolio website built to showcase my skills, development journey, and recent projects. This site reflects my passion for crafting elegant UIs and learning modern frontend tools.
 
@@ -12,11 +12,11 @@ Hi, I'm **Prosper Alex**, a budding **Frontend Developer** based in Nigeria. I s
 
 ### 🔧 Tech Stack
 
-| Currently Using     | Learning & Exploring                  |
-|---------------------|----------------------------------------|
-| HTML5, CSS3         | JavaScript (Vanilla), Sass (SCSS)      |
-| Responsive Design   | Tailwind CSS, Python                   |
-| Git & GitHub        |                                       |
+| Currently Using   | Learning & Exploring              |
+| ----------------- | --------------------------------- |
+| HTML5, CSS3       | JavaScript (Vanilla), Sass (SCSS) |
+| Responsive Design | Tailwind CSS, Python              |
+| Git & GitHub      |                                   |
 
 💡 I'm passionate about clean design systems, intuitive UX, and continuously improving my problem-solving skills as I grow as a developer.
 
@@ -24,12 +24,12 @@ Hi, I'm **Prosper Alex**, a budding **Frontend Developer** based in Nigeria. I s
 
 ## 🖥️ Website Features
 
-- 🖼️ **Hero Section** – A short professional intro & call-to-action
-- 💼 **Projects Gallery** – Curated case studies with links to code/live demos
-- 🧭 **Career Timeline** – Overview of my learning path and milestones
-- 📝 **Resume Access** – Easily downloadable CV
-- 🧠 **Skills Section** – Display of core tools and technologies
-- 🔗 **External Links** – Medium, GitHub, LinkedIn, and contact options
+- 🖼️ **Hero Section** => A short professional intro & call-to-action
+- 💼 **Projects Gallery** => Curated case studies with links to code/live demos
+- 🧭 **Career Timeline** => Overview of my learning path and milestones
+- 📝 **Resume Access** => Easily downloadable CV
+- 🧠 **Skills Section** => Display of core tools and technologies
+- 🔗 **External Links** => Medium, GitHub, LinkedIn, and contact options
 
 ---
 
@@ -37,11 +37,11 @@ Hi, I'm **Prosper Alex**, a budding **Frontend Developer** based in Nigeria. I s
 
 This portfolio highlights some of the real-world and practice-based projects I've worked on:
 
-- **Deel HR Website** – SaaS-style landing page with animations and mobile responsiveness
-- **Qitchen Restaurant** – A fancy restaurant site with an elegant UI
-- **Chuddy Visuals** – Creative agency site built in collaboration with a UK-based photographer
-- **Banquee Banking UI** – A sleek UI for a fictional fintech startup
-- **Aiyada Interior Design** – Clean and modern landing page for a design agency
+- **Deel HR Website** => SaaS-style landing page with animations and mobile responsiveness
+- **Qitchen Restaurant** => A fancy restaurant site with an elegant UI
+- **Chuddy Visuals** => Creative agency site built in collaboration with a UK-based photographer
+- **Banquee Banking UI** => A sleek UI for a fictional fintech startup
+- **Aiyada Interior Design** => Clean and modern landing page for a design agency
 
 Each project is built using modern frontend principles and styled with clean, modular SCSS or utility-first CSS.
 
@@ -73,7 +73,6 @@ Each project is built using modern frontend principles and styled with clean, mo
 - 🐙 **GitHub**: [github.com/Prosper-Alex](https://github.com/Prosper-Alex)
 - 📧 **Email**: [prosperalex0110@gmail.com](mailto:prosperalex0110@gmail.com)
 
-
 ---
 
 ## 📄 License
@@ -86,4 +85,4 @@ This project is open-sourced under the [MIT License](LICENSE).
 
 Thanks for checking out my portfolio! I’m constantly improving and learning. If you're looking for a motivated frontend developer to join your team or collaborate on a project, feel free to reach out.
 
-> “Great websites aren’t just built — they’re carefully designed, structured, and polished.”
+> “Great websites aren’t just built => they’re carefully designed, structured, and polished.”
